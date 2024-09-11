@@ -32,7 +32,7 @@ if __name__ == "__main__":
     N = get_verified_input("Choose an N value: ", allowed_N, "No config with that N value was found!")
 
     si5394_config = f"./pll_configs/si5394/{FREQ}MHz_{N}.h"
-    zl30274_config = f"./pll_configs/zl30274/{FREQ}MHz_{N}.h"
+    zl30274_config = f"./pll_configs/zl30274/{FREQ}MHz_{N}.mfg"
 
     print(f"\nUsing Si5394 PLL config: \n\t{si5394_config}")
     print(f"\nUsing ZL30274 PLL config: \n\t{zl30274_config}\n")
